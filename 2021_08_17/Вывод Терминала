@@ -1,0 +1,127 @@
+Last login: Thu Aug 19 19:39:11 on console
+artemvakula@MacBook-Pro-Artem ~ % $ git --version
+zsh: command not found: $
+artemvakula@MacBook-Pro-Artem ~ % git --version
+objc[1526]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x20346bad8) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x1140a42b8). One of the two will be used. Which one is undefined.
+objc[1526]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x20346bb28) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x1140a4308). One of the two will be used. Which one is undefined.
+git version 2.30.1 (Apple Git-130)
+artemvakula@MacBook-Pro-Artem ~ % git config --global user.name "Artem Vakula"  artemvakula@MacBook-Pro-Artem ~ % git config --global user.email mr.vakula.aa@gmail.com
+artemvakula@MacBook-Pro-Artem ~ % git --version
+git version 2.30.1 (Apple Git-130)
+artemvakula@MacBook-Pro-Artem ~ % cd /Users/artemvakula/Documents/Homework 
+artemvakula@MacBook-Pro-Artem Homework % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/artemvakula/Documents/Homework/.git/
+artemvakula@MacBook-Pro-Artem Homework % git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+artemvakula@MacBook-Pro-Artem Homework % git add .
+artemvakula@MacBook-Pro-Artem Homework % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   2021_08_17/2021_08_17.pages
+
+artemvakula@MacBook-Pro-Artem Homework % git commit -m "commit description message"
+[master (root-commit) 479d26f] commit description message
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100755 2021_08_17/2021_08_17.pages
+artemvakula@MacBook-Pro-Artem Homework % git status
+On branch master
+nothing to commit, working tree clean
+artemvakula@MacBook-Pro-Artem Homework % get remote
+zsh: command not found: get
+artemvakula@MacBook-Pro-Artem Homework % get remote
+zsh: command not found: get
+artemvakula@MacBook-Pro-Artem Homework % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   2021_08_17/2021_08_17.pages
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	"2021_08_17/\320\221\320\265\320\267 \320\275\320\260\320\267\320\262\320\260\320\275\320\270\321\217.rtf"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+artemvakula@MacBook-Pro-Artem Homework % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   2021_08_17/2021_08_17.pages
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	2021_08_17/homework 2021_08_17.rtf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+artemvakula@MacBook-Pro-Artem Homework % get remote
+zsh: command not found: get
+artemvakula@MacBook-Pro-Artem Homework % git remote add origin https://github.com/ArtemVakula/homework.git
+error: remote origin already exists.
+artemvakula@MacBook-Pro-Artem Homework % git remote add hw https://github.com/ArtemVakula/homework.git
+artemvakula@MacBook-Pro-Artem Homework % git push origin master 
+Username for 'https://github.com': git init
+Password for 'https://git init@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ArtemVakula/homework.git/'
+artemvakula@MacBook-Pro-Artem Homework % 
+artemvakula@MacBook-Pro-Artem Homework % git remote add origin https://github.com/ArtemVakula/homework.git
+error: remote origin already exists.
+artemvakula@MacBook-Pro-Artem Homework % git branch -M main
+artemvakula@MacBook-Pro-Artem Homework % git push -u origin mai
+error: src refspec mai does not match any
+error: failed to push some refs to 'https://github.com/ArtemVakula/homework.git'
+artemvakula@MacBook-Pro-Artem Homework % git push -u origin main
+Username for 'https://github.com': git init
+Password for 'https://git init@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ArtemVakula/homework.git/'
+artemvakula@MacBook-Pro-Artem Homework % git init
+Reinitialized existing Git repository in /Users/artemvakula/Documents/Homework/.git/
+artemvakula@MacBook-Pro-Artem Homework % git status
+On branch main
+nothing to commit, working tree clean
+artemvakula@MacBook-Pro-Artem Homework % nano test.txt
+
+  GNU nano 2.0.6              File: test.txt                          Modified  
+
+Hello Git  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
